@@ -1,6 +1,6 @@
 <%-- 
     Document   : arithmeticcalculator
-    Created on : 30-Jan-2023, 1:14:48 AM
+    Created on : 29-Jan-2023, 9:14:48 PM
     Author     : darkn
 --%>
 
@@ -10,12 +10,18 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Arithmetic Calculator</title>
+        <style>
+        input[type="text"] {
+        width: 100px;
+        }
+        </style>
     </head>
     <body>
         <form method="post" action="arithmetic">
         <h1>Arithmetic Calculator</h1>
-        First : <input type ="text" name="firstnumber" value="${firstnumber}"> <br>
+        First : <input type ="text" name="firstnumber" value="${firstnumber}"> <Br>
         Second : <input type="text" name="secondnumber" value="${secondnumber}"> <br>
+      
         <input type ="submit" name="submit" value="+">
         <input type ="submit" name="submit" value="-">
         <input type ="submit" name="submit" value="*">
